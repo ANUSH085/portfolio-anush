@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="anusha mundargi, portfolio, anusha, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Jigar's Portfolio. Full-Stack Web Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Anusha Mundargi</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f9;
+      }
+
+      .container {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+          text-align: center;
+          color: #333;
+          animation: fadeIn 2s ease-in-out;
+          font-size: 4em;
+      }
+
+      .project {
+          border-bottom: 1px solid #ddd;
+          padding: 10px 0;
+          transition: transform 0.3s, background-color 0.3s;
+      }
+
+      .project:last-child {
+          border-bottom: none;
+      }
+
+      .project h2 {
+          margin: 0;
+          font-size: 2em;
+          color: #444;
+      }
+
+      .project p {
+          margin: 5px 0 0;
+          font-size: 1.5em;
+          color: #666;
+      }
+
+      .project:hover {
+          background-color: #f9f9ff;
+          transform: translateY(-5px);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+          to {
+              opacity: 1;
+          }
+      }
+
+      @keyframes slideIn {
+          from {
+              transform: translateX(-100%);
+              opacity: 0;
+          }
+          to {
+              transform: translateX(0);
+              opacity: 1;
+          }
+      }
+
+      .project {
+          animation: slideIn 0.8s ease-in-out;
+      }
+  </style>
+</head>
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i> Anusha</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#experience">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Anusha <span>Mundargi</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="http://www.linkedin.com/in/anusha-mundargi-95a33225b" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/ANUSH085" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Anusha</h3>
+        <span class="tag">Student</span>
+        
+        <p>I am currently a BCA 3rd year student at KLE Technological University, Hubli.
+          I love diving into new technologies, learning different programming languages, and experimenting with creative problem-solving.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Working for myself to improve my skills.
+          Love to build Full-Stack clones. </p>
+        
+        <div class="box-container">
+            <!-- <div class="box">
+              <p><span> age: </span> 20</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+            <div class="box">
+              <p><span> email : </span> anushamundargi154@gmail.com</p>
+              <p><span> place : </span> Hubli, India - 580023</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/1aGyC-SRf_UjYwroC0J57xuYLeEpUc3dM/view?usp=drivesdk " target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/?size=100&id=v8RpPQUwv0N8&format=png&color=000000"/>
+                <span>HTML</span>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000"/>
+                <span>CSS</span>
+              </div>
+            </div> 
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"/>
+                <span>JavaScript</span>
+              </div>
+            </div> 
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/?size=100&id=vmvI5vAt7c2L&format=png&color=000000"/>
+                <span>SQL</span>
+              </div>
+            </div> 
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/?size=100&id=40670&format=png&color=000000"/>
+                <span>C Programming</span>
+              </div>
+            </div> 
+            <br/>
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/?size=100&id=2T6TKY6whzgV&format=png&color=000000"/>
+                <span>C++</span>
+              </div>
+            </div> 
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000"/>
+                <span>Java</span>
+              </div>
+            </div> 
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img src="https://www.kletech.ac.in/hubballi/images/abt-over-img.jpg"/>
+        </div>
+        <div class="content">
+        <h3>Bachelor of Computer Applications</h3>
+        <p>KLE Technological University</p>
+        <h4>2022-2025 | Pursuing</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-I-9Pn_Lf-vu46HSz7iYkn3Hjk-KDGESHMw&s"/>
+      </div>
+      <div class="content">
+      <h3>Higher Secondary</h3>
+      <p>Samarth PU Science College</p>
+      <h4>2020-2022 | Completed</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT18unPvSz3r1N6VaVSxSR7N43_qGKXtJjWlw&s"/>
+      </div>
+      <div class="content">
+      <h3>Secondary</h3>
+      <p>Sacred Heart Convent</p>
+      <h4>2020 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <div class="container">
+    <h1>My Projects</h1>
+
+    <div class="project">
+        <h2>Project 1: Car Rental System</h2>
+        <p>The car rental booking system is a modern
+          platform that allows you to choose, compare
+          and book vehicles in any location.These systems often include features like : Search: Customers can search for cars available for rental
+          at a specific location and date.Customer support is available 24/7 to assist with any needs</p>
+    </div>
+    <div class="project">
+      <h2>Project 2: Email Spam Detection</h2>
+      <p>Our Email spam detection system utilizes logistic regression to classify emails as spam or
+        not spam. It analyses features like word frequency and sender information. The model is
+        trained on labeled datasets to identify spam
+        patterns.The system continuously updates and
+        improves through feedback and new data.</p>
+  </div>
+
+  
+    <!-- Add more projects as needed -->
+
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Certificate </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>C Programming</h2>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Cyber Security - ABC's of Malware Analysis</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Introduction to Big Data Tools for Beginners</h2>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Anusha's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> projects</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> certificates</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+          <p> <i class="fas fa-envelope"></i>anushamundargi154@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Hubli, India-580023</p>
+          <div class="share">
+
+              <a href="http://www.linkedin.com/in/anusha-mundargi-95a33225b" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/ANUSH085" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="http://www.linkedin.com/in/anusha-mundargi-95a33225b"> anusha mundargi</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
